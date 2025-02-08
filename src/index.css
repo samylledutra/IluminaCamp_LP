@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.section-skew {
+  clip-path: polygon(0 0, 100% 5%, 100% 95%, 0% 100%);
+}
+
+.btn {
+  background: #fce700;
+  background-image: -webkit-linear-gradient(top, #fce700, #ffbb00);
+  background-image: -moz-linear-gradient(top, #fce700, #ffbb00);
+  background-image: -ms-linear-gradient(top, #fce700, #ffbb00);
+  background-image: -o-linear-gradient(top, #fce700, #ffbb00);
+  background-image: linear-gradient(to bottom, #fce700, #ffbb00);
+  -webkit-border-radius: 6;
+  -moz-border-radius: 6;
+  border-radius: 6px;
+  font-family: Arial;
+  color: #000000;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #ffff00;
+  background-image: -webkit-linear-gradient(top, #ffff00, #fcbe03);
+  background-image: -moz-linear-gradient(top, #ffff00, #fcbe03);
+  background-image: -ms-linear-gradient(top, #ffff00, #fcbe03);
+  background-image: -o-linear-gradient(top, #ffff00, #fcbe03);
+  background-image: linear-gradient(to bottom, #ffff00, #fcbe03);
+  text-decoration: none;
+}
