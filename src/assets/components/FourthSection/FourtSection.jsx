@@ -3,7 +3,7 @@ import camp11 from "../../imagens/camp11.jpg";
 
 const FourtSection = () => {
     return (
-        <section className="relative text-center pt-10 pb-20 px-4 bg-black/5 bg-cover bg-center ">
+        <section className="relative text-center pt-10 pb-20 px-4 bg-black/5 bg-cover bg-center">
             <div className="relative z-10 max-w-[65rem] mx-auto px-4 flex flex-col items-center text-center">
 
                 {/* Título acima */}
@@ -12,7 +12,7 @@ const FourtSection = () => {
                 </h2>
 
                 {/* Container para imagem e texto */}
-                <div className="flex flex-col md:flex-row items-center md:items-start text-center md:text-left gap-10 w-full">
+                <div className="flex flex-col md:flex-row items-center md:items-start text-center md:text-left gap-10 w-full mb-8">
                     {/* Texto ao lado da imagem */}
                     <div className="w-full md:w-1/2 flex flex-col items-center md:items-start mt-8">
                         <p className="text-lg text-justify mt-6 md:mt-0">

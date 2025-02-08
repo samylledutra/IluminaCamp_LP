@@ -1,0 +1,9 @@
+@media (max-width: 420px) {
+    .secondSection button {
+        padding-bottom: 10px;
+        width: 220px;
+        padding-top: 10px;
+        font-size: 10px;
+    }
+  }
+ 

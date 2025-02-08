@@ -1,9 +1,10 @@
 import React from "react";
-import campingImage4 from "../../imagens/camp4.jpg"; // Imagem de fundo
+import campingImage4 from "../../imagens/camp4.jpg"; 
+import "./ThirdSection.css";
 
 const ThirdSection = () => {
     return (
-        <section className="relative w-full text-white">
+        <section className="thirdSection relative w-full text-white">
             {/* Fundo com imagem e efeito inclinado */}
             <div
                 className="absolute inset-0 bg-cover bg-center h-[600px]"

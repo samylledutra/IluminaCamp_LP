@@ -1,9 +1,10 @@
 import React from "react";
 import camp12 from "../../imagens/camp12.jpg";
+import "./FifthSection.css";
 
 const FifthSection = () => {
   return (
-    <section className="relative text-center pt-10 pb-20 px-4 bg-cover bg-center">
+    <section className="fifthSection relative text-center pt-10 pb-20 px-4 bg-cover bg-center mb-4">
       <div className="relative z-10 max-w-[65rem] mx-auto px-4">
 
         {/* Título acima */}
@@ -24,7 +25,7 @@ const FifthSection = () => {
           </div>
 
           {/* Texto ao lado da imagem */}
-          <div className="w-full md:w-1/2 flex flex-col items-center md:items-start">
+          <div className="w-full md:w-1/2 flex flex-col items-center md:items-start mb-4">
             <p className="text-lg text-justify">
               Lorem ipsum dolor sit amet, consectetur adipiscing. Lorem ipsum
               dolor sit amet, consectetur adipiscing. Lorem ipsum dolor sit

@@ -1,9 +1,10 @@
 import React from "react";
 import IluminaButton from "../Buttons/Button";
+import "./secondSection.css";
 
 const SecondSection = () => {
   return (
-    <section className="containerSecond relative text-center pt-10 pb-20 px-4 bg-cover bg-center">
+    <section className="secondSection relative text-center pt-10 pb-20 px-4 bg-cover bg-center">
       <div className="relative text-center z-10 max-w-[65rem] mx-auto px-4">
         <div className="max-w-5xl mx-auto text-center flex flex-col items-center">
           {/* Título */}

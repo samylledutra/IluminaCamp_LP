@@ -1,11 +1,11 @@
 import React from "react";
 import camp13 from "../../imagens/camp13.jpg";
-import logoColofurlTP from "../../imagens/logoColofurlTP.png"; // Ajuste conforme a extensão correta
+import "./ImagesSection.css"
 
 const ImageSection = () => {
   return (
     <section
-      className="relative text-center flex items-center justify-center h-[230px] bg-cover bg-center"
+      className="imagesSection relative text-center flex items-center justify-center h-[500px] bg-cover bg-center"
       style={{
         backgroundImage: `url(${camp13})`,
         backgroundSize: "cover",
@@ -15,9 +15,16 @@ const ImageSection = () => {
       {/* Overlay preto para escurecer */}
       <div className="absolute inset-0 bg-black/70"></div>
 
-      {/* Logo sobre a imagem de fundo */}
-      <div className="absolute z-10 right-10 md:right-[30rem] mt-[30px]">
-        <img src={logoColofurlTP} alt="Logo" className="w-60 md:w-[30rem]" />
+      {/* Conteúdo */}
+      <div className="imagesContent relative z-10 p-6 rounded-md">
+        <h1 className="uppercase text-3xl text-3xl lg:text-[3rem] leading-[60px] px-[10rem] font-bold text-white">Lorem ipsum dolor sit amet, consectetur.</h1>
+        <p className="text-lg md:text-2xl mt-2 text-white">Lorem ipsum, dolor sit!</p>
+        <button className="relative mt-4 px-8 py-3 text-lg font-bold uppercase tracking-wide text-black bg-yellow-400 rounded-lg overflow-hidden transition-all duration-300 ease-in-out 
+                  hover:bg-yellow-500 hover:scale-105 hover:bg-[#ffff003b] hover:text-white w-[300px] mt-12">
+  <span className="absolute inset-0 border-2 border-yellow-500 rounded-lg opacity-0 transition-opacity duration-300 hover:opacity-100"></span>
+  lorem ipsum
+</button>
+
       </div>
     </section>
   );

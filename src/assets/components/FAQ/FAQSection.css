@@ -1,0 +1,13 @@
+@media (max-width: 400px) {
+    .itemQuestion {
+        text-align: justify;
+        font-size: 15px;
+        line-height: 20px;
+        padding-right: 25px;
+    }
+
+    .plusSign {
+        font-size: 25px;
+    }
+  }
+  

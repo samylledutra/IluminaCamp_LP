@@ -1,0 +1,20 @@
+
+.social-icon {
+    font-size: 35px;
+  }
+  
+
+  @media (max-width: 400px) {
+    .social-icon {
+      font-size: 30px; 
+    }
+  
+    .copyright {
+      margin-bottom: 20px;
+    }
+  
+    .icons {
+      gap: 20px;
+    }
+  }
+  
