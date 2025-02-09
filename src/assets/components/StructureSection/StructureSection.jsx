@@ -5,13 +5,13 @@ import IluminaButton from "../Buttons/ButtonThree";
 
 const cardData = [
   {
-    icon: <GiCampingTent className="text-4xl text-green-700" />,
+    icon: <GiCampingTent className="text-4xl text-green-500" />,
     title: "Estrutura e Ambiente do Illumina Camp",
     description:
       "O Illumina Camp foi cuidadosamente planejado para oferecer uma experiência única, combinando natureza, conforto e segurança.",
   },
   {
-    icon: <GiPineTree className="text-4xl text-green-500" />,
+    icon: <GiPineTree className="text-4xl text-green-700" />,
     title: "A Natureza Como Cenário",
     description:
       "Nosso acampamento está localizado em meio a paisagens deslumbrantes, com cachoeiras cristalinas, trilhas naturais e um ambiente perfeito para quem busca conexão com a natureza e inspiração para a criatividade.",

@@ -20,7 +20,7 @@ const Hero = () => {
 
   return (
     <header
-      className="heroSection relative w-full h-[500px] md:h-[600px] bg-cover bg-center flex items-center justify-center text-center text-white pt-[60px] transition-all duration-500"
+      className="heroSection relative w-full h-[600px] md:h-[600px] bg-cover bg-center flex items-center justify-center text-center text-white pt-[60px] transition-all duration-500"
       style={{ backgroundImage: `url(${images[currentIndex]})` }}
     >
       {/* Sobreposição escura */}

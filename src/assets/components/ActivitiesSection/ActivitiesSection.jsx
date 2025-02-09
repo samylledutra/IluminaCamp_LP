@@ -2,11 +2,11 @@ import React from "react";
 import { FaMusic, FaTheaterMasks, FaRunning, FaStar, FaUsers } from "react-icons/fa"; 
 
 const atividades = [
-  { icon: <FaMusic />, title: "Oficinas de canto, dança e instrumentos musicais" },
-  { icon: <FaTheaterMasks />, title: "Teatro e expressão artística" },
-  { icon: <FaRunning />, title: "Atividades esportivas e desafios ao ar livre" },
-  { icon: <FaStar />, title: "Noites temáticas e shows exclusivos" },
-  { icon: <FaUsers />, title: "Conexões reais com pessoas incríveis" }
+  { icon: <FaMusic className="text-purple-500"/>, title: "Oficinas de canto, dança e instrumentos musicais" },
+  { icon: <FaTheaterMasks className="text-red-500" />, title: "Teatro e expressão artística" },
+  { icon: <FaRunning className="text-green-500" />, title: "Atividades esportivas e desafios ao ar livre" },
+  { icon: <FaStar className="text-yellow-500" />, title: "Noites temáticas e shows exclusivos" },
+  { icon: <FaUsers className="text-blue-500" />, title: "Conexões reais com pessoas incríveis" }
 ];
 
 const ActivitiesSection = () => {
@@ -23,11 +23,11 @@ const ActivitiesSection = () => {
         <div className="containerFlexivel flex flex-col items-center  text-center  gap-10 w-full">
 
           {/* Lista de atividades */}
-          <div className="w-full md:w-1/2 flex flex-col items-center md:items-start">
+          <div className="w-full md:w-[60%] flex flex-col items-center md:items-start">
             {atividades.map((item, index) => (
               <div key={index} className="flex items-center gap-4 p-4 w-full bg-white rounded-lg shadow-md hover:scale-105 transition-transform duration-300 mb-4">
                 <div className="text-blue-600 text-3xl">{item.icon}</div>
-                <p className="text-justify text-[15px] font-medium">{item.title}</p>
+                <p className="text-justify text-[17px] font-medium">{item.title}</p>
               </div>
             ))}
           </div>

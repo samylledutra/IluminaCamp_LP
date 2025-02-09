@@ -22,7 +22,7 @@ const ThirdSection = () => {
                     Desafie-se, Divirta-se e Cresça!
                 </h2>
                 <div className="relative z-10 w-full max-w-[1000px] h-1 bg-yellow-400 mx-auto mt-4 mb-8"></div>
-                <p className="mt-4 text-[1.125rem] leading-[1.5rem]  md:text-xl leading-relaxed">
+                <p className="mt-4 text-[1.125rem] leading-[1.5rem]  md:text-xl">
                     No Illumina Camp, cada dia é uma nova aventura! Nossa programação foi criada para equilibrar diversão, aprendizado e conexão com a natureza.  </p>
             </div>
         </section>

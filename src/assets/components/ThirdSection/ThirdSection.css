@@ -1,7 +1,20 @@
 @media (max-width: 425px) {
-    .thirdSection p {
-       text-align: justify;
-    }
-  }
- 
- 
+   .thirdSection p {
+      text-align: justify;
+   }
+}
+
+@media (min-width: 768px) {
+   .contentSection h2 {
+      font-size: 38px;
+      line-height: 2.5rem;
+      
+   }
+
+   .contentSection p {
+      font-size: 25px;
+      line-height: 27px;
+      margin-left: 45px;
+      margin-right: 45px;
+   }
+}
