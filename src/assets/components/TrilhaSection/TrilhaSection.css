@@ -46,15 +46,17 @@
 }
 
 .trilha-text h2 {
-    font-size: 24px;
+    font-size: 30px;
     font-weight: bold;
+    line-height: 30px;
+    margin-bottom: 30px;
 }
 
 .trilha-divider {
-    width: 350px;
     height: 4px;
     background: yellow;
     margin: 10px auto;
+    margin-bottom: 30px;
 }
 
 .trilha-text p {
@@ -98,9 +100,9 @@
     font-weight: bold;
 }
 
-@media (max-width: 420px) {
+@media (max-width: 425px) {
     .trilha-container {
-        margin-top: 10rem;
+        margin-top: 2rem;
     }
 
     .trilha-item {
@@ -111,16 +113,16 @@
         height: 350px;
     }
 
-    .trilha-divider {
-        width: 320px;
-    }
+   
 }
 
 
 @media (min-width: 768px) {
+    .trilha-container {
+        margin-top: 1rem;
+    }
     .trilha-content {
-        flex-direction: row;
-        align-items: flex-start;
+        flex-direction: column;
         text-align: left;
     }
 
@@ -134,5 +136,9 @@
     .trilha-item {
         flex: none;
         max-width: none;
+    }
+
+    .trilha-img {
+        height: 350px;
     }
 }

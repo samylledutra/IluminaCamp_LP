@@ -44,7 +44,7 @@ const TrilhaSection = () => {
                 {/* Texto */}
                 <div className="trilha-text mt-4">
                     <h2>Lorem ipsum dolor sit amet, consectetur adipiscing.</h2>
-                    <div className="trilha-divider"></div>
+                    <div className="trilha-divider w-full max-w-[1000px]"></div>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing.</p>
 
                     {/* Formulário */}
