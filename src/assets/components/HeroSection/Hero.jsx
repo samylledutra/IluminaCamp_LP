@@ -24,7 +24,7 @@ const Hero = () => {
       style={{ backgroundImage: `url(${images[currentIndex]})` }}
     >
       {/* Sobreposição escura */}
-      <div className="absolute inset-0 bg-black bg-opacity-70"></div>
+      <div className="absolute inset-0 bg-black bg-opacity-50"></div>
 
       {/* Conteúdo */}
       <div className="relative z-10 p-6 rounded-md">
