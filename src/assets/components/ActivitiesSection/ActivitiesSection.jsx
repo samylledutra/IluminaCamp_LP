@@ -11,7 +11,7 @@ const atividades = [
 
 const ActivitiesSection = () => {
   return (
-    <section className="activitiesSection relative text-center pt-[15rem] pb-20 px-4 bg-black/5 bg-cover bg-center mt-12">
+    <section className="activitiesSection relative text-center pt-[15rem] pb-20 px-4 bg-black/5 bg-cover bg-center mt-10">
       <div className="relative z-10 max-w-[65rem] mx-auto px-4 flex flex-col items-center text-center">
 
         {/* Título */}

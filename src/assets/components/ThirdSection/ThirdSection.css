@@ -4,18 +4,4 @@
     }
   }
  
-  @media (max-width: 768px) {
-   .thirdSection p {
-      text-align: justify;
-   }
-
-   .contentSection h2 {
-      font-size: 2.5rem;
-   }
-   .contentSection p {
-      font-size: 1.5rem;
-        line-height: 25px;
-        padding: 0 25px 0 25px;
-        text-align: justify;
-   }
- }
+ 

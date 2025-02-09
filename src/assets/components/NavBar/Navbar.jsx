@@ -4,7 +4,7 @@ import "./NavBar.css";
 
 const Navbar = () => {
   return (
-    <nav className="navBar absolute top-0 left-0 w-full text-white text-[20px] pr-[50px] flex items-start justify-between px-8 z-10">
+    <nav className="navBar absolute top-0 left-0 w-full text-white text-[20px] flex items-start justify-between px-8 z-10">
 
 
       {/* Logo responsiva */}
