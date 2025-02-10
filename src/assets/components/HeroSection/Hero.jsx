@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { FaChevronLeft, FaChevronRight } from "react-icons/fa"; 
+import { FaChevronLeft, FaChevronRight } from "react-icons/fa";
 import campingImage from "../../imagens/camp.jpg";
 import campingImage2 from "../../imagens/camp2.jpg";
 import campingImage3 from "../../imagens/camp3.jpg";
@@ -20,8 +20,8 @@ const Hero = () => {
 
   return (
     <header
-      className="heroSection relative w-full h-[600px] md:h-[600px] bg-cover bg-center flex items-center justify-center text-center text-white pt-[60px] transition-all duration-500"
-      style={{ backgroundImage: `url(${images[currentIndex]})` }}
+      className="heroSection relative w-full h-[600px] md:h-[600px] bg-cover bg-center flex items-center justify-center text-center text-white pt-[60px] transition-all duration-500 "
+      loading="lazy" style={{ backgroundImage: `url(${images[currentIndex]})` }}
     >
       {/* Sobreposição escura */}
       <div className="absolute inset-0 bg-black bg-opacity-50"></div>
@@ -58,7 +58,7 @@ const Hero = () => {
         {images.map((_, index) => (
           <div
             key={index}
-            onClick={() => setCurrentIndex(index)} 
+            onClick={() => setCurrentIndex(index)}
             className={`w-3 h-3 rounded-full cursor-pointer transition-all ${currentIndex === index ? "bg-yellow-400 scale-110" : "bg-gray-400 hover:bg-gray-300"
               }`}
           ></div>
