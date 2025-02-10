@@ -34,7 +34,7 @@ const TrilhaSection = () => {
 
 
                 <div className="trilha-text mt-4">
-                    <h2>Troque a rotina pela a aventura</h2>
+                    <h2>Troque a rotina pela aventura</h2>
                     <div className="trilha-divider w-full max-w-[1000px]"></div>
                     <p>Se desconecte das telas e se conecte na experiência e diversão</p>
 

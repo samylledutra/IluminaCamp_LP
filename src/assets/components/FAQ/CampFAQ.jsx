@@ -5,7 +5,7 @@ import "./FAQSection.css";
 const faqData = [
     {
         question: "O que é o Illumina Camp?",
-        answer: "O Illumina Camp é um acampamento infantojuvenil projetado para proporcionar aprendizado, diversão e conexão com a natureza.Nossa missão é criar uma experiência enriquecedora onde crianças e adolescentes possam desenvolver habilidades, autonomia e novas amizades em um ambiente seguro e estimulante.",
+        answer: "O Illumina Camp é um acampamento infantojuvenil projetado para proporcionar aprendizado, diversão e conexão com a natureza. Nossa missão é criar uma experiência enriquecedora onde crianças e adolescentes possam desenvolver habilidades, autonomia e novas amizades em um ambiente seguro e estimulante.",
     },
     {
         question: "Quem pode participar?",
