@@ -27,7 +27,7 @@ const TrilhaSection = () => {
                 <div className="trilha-carousel">
                     {trails.map((trail, index) => (
                         <div key={index} className="trilha-item">
-                            <img src={trail.img} alt={`Trilha ${index + 1}`} className="trilha-img" />
+                            <img src={trail.img} alt={`Trilha ${index + 1}`} className="trilha-img" loading="lazy" />
                         </div>
                     ))}
                 </div>
