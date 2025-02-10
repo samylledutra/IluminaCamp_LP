@@ -1,5 +1,5 @@
 import React from "react";
-import { GiCampingTent, GiCampfire, GiPineTree, GiHouse, GiCheckedShield , GiKnifeFork } from "react-icons/gi";
+import { GiCampingTent, GiCampfire, GiPineTree, GiHouse, GiCheckedShield, GiKnifeFork } from "react-icons/gi";
 import camp11 from "../../imagens/camp11.jpg";
 import IluminaButton from "../Buttons/ButtonThree";
 
@@ -23,7 +23,7 @@ const cardData = [
       "Esqueça desconforto! Oferecemos acomodações seguras e aconchegantes para garantir que sua experiência seja completa. Cada espaço foi pensado para proporcionar descanso de qualidade após um dia cheio de atividades.",
   },
   {
-    icon: <GiCheckedShield   className="text-4xl text-red-600" />,
+    icon: <GiCheckedShield className="text-4xl text-red-600" />,
     title: "Segurança 24h",
     description:
       "Contamos com monitores experientes e uma equipe treinada para garantir o bem-estar de todos os participantes. Além disso, há suporte médico disponível durante todo o evento.",
@@ -62,13 +62,13 @@ const StructureSection = () => {
                 <h3 className="text-[20px] leading-[20px] text-justify font-semibold mb-2 text-black-700 mb-6">
                   {card.title}
                 </h3>
-                <p className="text-gray-700 text-justify leading-[20px]">{card.description}</p>
+                <p className="text-gray-700 text-justify text-[15px] leading-[20px]">{card.description}</p>
               </div>
             </div>
           ))}
         </div>
 
-       {/*<div className="mt-12">
+        {/*<div className="mt-12">
           <img
             src={camp11}
             alt="Ambiente do Illumina Camp"

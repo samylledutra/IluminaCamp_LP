@@ -5,7 +5,7 @@ import camp7 from "../../imagens/camp7.jpg";
 import camp8 from "../../imagens/camp8.jpg";
 import camp9 from "../../imagens/camp9.jpg";
 import camp10 from "../../imagens/camp10.jpg";
-import "./TrilhaSection.css"; // Importando o CSS separado
+import "./TrilhaSection.css";
 
 const trails = [
     { img: camp5 },
@@ -17,12 +17,12 @@ const trails = [
 ];
 
 const TrilhaSection = () => {
-   
+
 
     return (
         <section className="trilha-container mt-[5rem]">
             <div className="trilha-content">
-                
+
                 {/* Grid transformado em carrossel no mobile */}
                 <div className="trilha-carousel">
                     {trails.map((trail, index) => (
@@ -32,13 +32,13 @@ const TrilhaSection = () => {
                     ))}
                 </div>
 
-                {/* Texto */}
-                <div className="trilha-text mt-4">
-                    <h2>Lorem ipsum dolor sit amet, consectetur adipiscing.</h2>
-                    <div className="trilha-divider w-full max-w-[1000px]"></div>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing.</p>
 
-                    
+                <div className="trilha-text mt-4">
+                    <h2>Troque a rotina pela a aventura</h2>
+                    <div className="trilha-divider w-full max-w-[1000px]"></div>
+                    <p>Se desconecte das telas e se conecte na experiência e diversão</p>
+
+
                 </div>
             </div>
         </section>

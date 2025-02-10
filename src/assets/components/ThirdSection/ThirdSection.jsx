@@ -16,7 +16,7 @@ const ThirdSection = () => {
                 <div className="absolute inset-0 bg-black opacity-50"></div>
             </div>
 
-            {/* Conteúdo */}
+            
             <div className="contentSection relative z-10 flex flex-col items-center text-center max-w-4xl mx-auto px-6 py-16 md:py-24 ">
                 <h2 className="text-3xl md:text-4xl font-bold leading-[30px] mb-2">
                     Desafie-se, Divirta-se e Cresça!

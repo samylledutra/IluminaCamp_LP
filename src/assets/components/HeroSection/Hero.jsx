@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { FaChevronLeft, FaChevronRight } from "react-icons/fa"; // Importando Chevron
+import { FaChevronLeft, FaChevronRight } from "react-icons/fa"; 
 import campingImage from "../../imagens/camp.jpg";
 import campingImage2 from "../../imagens/camp2.jpg";
 import campingImage3 from "../../imagens/camp3.jpg";
@@ -29,12 +29,12 @@ const Hero = () => {
       {/* Conteúdo */}
       <div className="relative z-10 p-6 rounded-md">
         <h1 className="uppercase text-3xl md:text-5xl font-bold mb-4">Viva o acampamento dos seus sonhos</h1>
-        <p className="text-[15px] leading-[20px] text-[20px] mt-2 mb-8">Arte, música e aventura em um só lugar. Faça amigos, descubra talentos e viva momentos inesqueciveis no Illumina Camp</p>
+        <p className="text-[15px] leading-[20px] text-[17px] mt-2 mb-8">Arte, música e aventura em um só lugar. Faça amigos, descubra talentos e viva momentos inesqueciveis no Illumina Camp</p>
         <button className="relative mt-4 px-8 py-3 text-lg font-bold uppercase tracking-wide text-black bg-yellow-400 rounded-lg overflow-hidden transition-all duration-300 ease-in-out 
                    hover:scale-105 shadow-lg hover:bg-[#ffff003b] hover:text-white">
-  <span className="absolute inset-0 border-2 border-yellow-500 rounded-lg opacity-0 transition-opacity duration-300 hover:opacity-100"></span>
-  lorem ipsum
-</button>
+          <span className="absolute inset-0 border-2 border-yellow-500 rounded-lg opacity-0 transition-opacity duration-300 hover:opacity-100"></span>
+          Conheça
+        </button>
 
       </div>
 
@@ -53,15 +53,14 @@ const Hero = () => {
         {/*<FaChevronRight size={16} />*/}
       </button>
 
-      {/* Indicadores (bolinhas) - Agora clicáveis */}
+      {/* Indicadores (bolinhas)*/}
       <div className="absolute bottom-4 flex gap-2">
         {images.map((_, index) => (
           <div
             key={index}
-            onClick={() => setCurrentIndex(index)} // Define a imagem ao clicar
-            className={`w-3 h-3 rounded-full cursor-pointer transition-all ${
-              currentIndex === index ? "bg-yellow-400 scale-110" : "bg-gray-400 hover:bg-gray-300"
-            }`}
+            onClick={() => setCurrentIndex(index)} 
+            className={`w-3 h-3 rounded-full cursor-pointer transition-all ${currentIndex === index ? "bg-yellow-400 scale-110" : "bg-gray-400 hover:bg-gray-300"
+              }`}
           ></div>
         ))}
       </div>

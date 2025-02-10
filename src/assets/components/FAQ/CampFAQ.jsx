@@ -4,25 +4,37 @@ import "./FAQSection.css";
 
 const faqData = [
     {
-        question: "O que devo levar para o acampamento?",
-        answer: "Leve barraca, saco de dormir, lanterna, comida, água e roupas adequadas para o clima.",
+        question: "O que é o Illumina Camp?",
+        answer: "O Illumina Camp é um acampamento infantojuvenil projetado para proporcionar aprendizado, diversão e conexão com a natureza.Nossa missão é criar uma experiência enriquecedora onde crianças e adolescentes possam desenvolver habilidades, autonomia e novas amizades em um ambiente seguro e estimulante.",
     },
     {
-        question: "É seguro acampar à noite?",
-        answer: "Sim, desde que você escolha um local seguro, esteja preparado e siga boas práticas de segurança.",
+        question: "Quem pode participar?",
+        answer: "O Illumina Camp é voltado para crianças e adolescentes de 11 a 17 anos. As atividades são organizadas por faixas etárias, garantindo que cada grupo participe de dinâmicas adequadas ao seu desenvolvimento.",
     },
     {
-        question: "Posso fazer fogueira no acampamento?",
-        answer: "Depende do local. Sempre verifique as regras do parque ou área de camping antes de acender uma fogueira.",
+        question: "Como funciona a hospedagem?",
+        answer: "Os participantes ficam acomodados em chalés ou barracas, divididos por idade e gênero. Nossa equipe garante conforto, segurança e acompanhamento 24 horas por monitores treinados.",
     },
     {
-        question: "Qual o melhor lugar para montar uma barraca?",
-        answer: "Escolha um local plano, longe de rios que podem transbordar e protegido do vento forte.",
+        question: "A alimentação é inclusa?",
+        answer: "Sim! Oferecemos um cardápio balanceado e nutritivo, com opções para diferentes restrições alimentares. As refeições são preparadas por profissionais especializados em alimentação infantil e juvenil.",
     },
     {
-        question: "Posso levar meu animal de estimação para o acampamento?",
-        answer: "Sim, mas verifique se o local permite animais e leve tudo o que seu pet precisa, como comida, água e coleira.",
-    }
+        question: "Como funciona a segurança no acampamento?",
+        answer: "A segurança é nossa prioridade. O acampamento conta com: Monitores treinados acompanhando os participantes 24h; Equipe de primeiros socorros e atendimento médico de prontidão; Regras claras para garantir a segurança de todos durante as atividades",
+    },
+    {
+        question: "Como os pais podem acompanhar as atividades?",
+        answer: "Os pais recebem atualizações diárias por meio de um grupo exclusivo e também podem entrar em contato com a coordenação a qualquer momento.",
+    },
+    {
+        question: "O que meu filho deve levar?",
+        answer: "Após a inscrição, enviamos uma lista completa de itens recomendados, incluindo roupas, produtos de higiene pessoal e acessórios essenciais para o acampamento.",
+    },
+    {
+        question: "Como faço para inscrever meu filho?",
+        answer: "As inscrições podem ser feitas pelo nosso site. Como as vagas são limitadas, recomendamos garantir a participação o quanto antes!",
+    },
 ];
 
 const CampFAQ = () => {

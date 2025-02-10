@@ -12,9 +12,9 @@ const Navbar = () => {
 
       {/* Menu em telas médias e grandes */}
       <ul className="hidden md:flex gap-6 pt-[35px]">
-        <li className="hover:text-yellow-400 cursor-pointer">Find a Campground</li>
-        <li className="hover:text-yellow-400 cursor-pointer">Camping at IluminaCamp</li>
-        <li className="hover:text-yellow-400 cursor-pointer">Ways to Stay</li>
+        <li className="hover:text-yellow-400 cursor-pointer">Sobre nós</li>
+        <li className="hover:text-yellow-400 cursor-pointer">Onde nos encontrar</li>
+        <li className="hover:text-yellow-400 cursor-pointer">FAQ</li>
       </ul>
     </nav>
   );

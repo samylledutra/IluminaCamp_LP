@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { FaEnvelope } from "react-icons/fa";
-import "./FormSection.css"; 
+import "./FormSection.css";
 
 const FormSection = () => {
     const [email, setEmail] = useState("");
@@ -15,7 +15,7 @@ const FormSection = () => {
     };
 
     return (
-        <section className="form-container mt-[5rem]">
+        <section className="form-container mt-[5rem] bg-black/5">
             <div className="form-content">
                 <div className="form-text">
                     <h2>Cadastre-se para receber novidades!</h2>

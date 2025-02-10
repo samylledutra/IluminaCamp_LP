@@ -60,7 +60,7 @@
 }
 
 .trilha-text p {
-    font-size: 16px;
+    font-size: 20px;
     margin-top: 10px;
 }
 
@@ -113,31 +113,31 @@
         height: 350px;
     }
 
-   
+
 }
 
 @media (min-width: 426px) and (max-width: 767px) {
     .trilha-carousel {
         display: flex;
         flex-direction: column;
-        align-items: center; 
+        align-items: center;
         justify-content: center;
-        gap: 20px; 
-        overflow-x: visible; 
-        white-space: normal; 
+        gap: 20px;
+        overflow-x: visible;
+        white-space: normal;
         width: 100%;
     }
 
     .trilha-item {
         flex: none;
-        width: 100%; 
-        max-width: 400px; 
+        width: 100%;
+        max-width: 400px;
     }
 
     .trilha-img {
-        width: 100%; 
-        height: auto; 
-        object-fit: cover; 
+        width: 100%;
+        height: auto;
+        object-fit: cover;
     }
 }
 
@@ -146,6 +146,7 @@
     .trilha-container {
         margin-top: 1rem;
     }
+
     .trilha-content {
         flex-direction: column;
         text-align: left;

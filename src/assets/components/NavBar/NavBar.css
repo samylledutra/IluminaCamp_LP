@@ -1,11 +1,22 @@
 @media (max-width: 425px) {
-    .imageLogo {
-       height: 20rem;
-    }
+  .imageLogo {
+    height: 20rem;
   }
- 
-  @media (max-width: 768px) {
-   .navBar ul {
-     font-size: 16px;
-   }
- }
+}
+
+@media (min-width: 426px) and (max-width: 767px) {
+  .navBar {
+    padding-left: 7rem;
+    padding-right: 2rem;
+  }
+
+  .navBar ul {
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 768px) {
+  .navBar ul {
+    font-size: 20px;
+  }
+}
