@@ -33,7 +33,7 @@ const Footer = () => {
             </a>
 
             <a
-              href="https://www.facebook.com/seuperfil"
+              href="https://www.facebook.com/illuminacamp"
               target="_blank"
               rel="noopener noreferrer"
               className="group transition-all duration-300 ease-in-out hover:scale-110 hover:rotate-12"
@@ -42,7 +42,7 @@ const Footer = () => {
             </a>
 
             <a
-              href="https://twitter.com/seuperfil"
+              href="https://twitter.com/illuminacamp"
               target="_blank"
               rel="noopener noreferrer"
               className="group transition-all duration-300 ease-in-out hover:scale-110 hover:rotate-12"
