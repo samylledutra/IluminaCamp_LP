@@ -6,7 +6,7 @@ const ImageSection = () => {
   return (
     <section
       className="imagesSection relative text-center flex items-center justify-center h-[500px] bg-cover bg-center"
-      style={{
+      loading="lazy" style={{
         backgroundImage: `url(${camp13})`,
         backgroundSize: "cover",
         backgroundPosition: "center",

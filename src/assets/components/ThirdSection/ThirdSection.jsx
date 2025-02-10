@@ -8,7 +8,7 @@ const ThirdSection = () => {
             {/* Fundo com imagem e efeito inclinado */}
             <div
                 className="absolute inset-0 bg-cover bg-center h-[600px]"
-                style={{
+                loading="lazy"  style={{
                     backgroundImage: `url(${campingImage4})`,
                     clipPath: "polygon(0% 0%, 100% 0%, 100% 100%, 0% 80%)",
                 }}
