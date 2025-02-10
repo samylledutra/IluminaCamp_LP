@@ -10,6 +10,7 @@ import Footer from "./assets/components/Footer/Footer.jsx";
 import FifthSection from "./assets/components/FifthSection/FifthSection.jsx";
 import ImageSection from "./assets/components/ImageSection/ImageSection.jsx";
 import CampFAQ from "./assets/components/FAQ/CampFAQ.jsx";
+import FormSection from "./assets/components/FormSection/FormSection.jsx";
 
 
 const App = () => {
@@ -21,10 +22,12 @@ const App = () => {
       <ThirdSection />
       <ActivitiesSection />
       <TrilhaSection />
+
       <StructureSection />
       <FifthSection />
       <ImageSection />
       <CampFAQ />
+      <FormSection />
       <Footer />
     </div>
   );

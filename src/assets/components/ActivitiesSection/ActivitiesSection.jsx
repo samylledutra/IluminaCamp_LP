@@ -1,5 +1,6 @@
 import React from "react";
 import { FaMusic, FaTheaterMasks, FaRunning, FaStar, FaUsers } from "react-icons/fa"; 
+import "./ActivitiesSection.css";
 
 const atividades = [
   { icon: <FaMusic className="text-purple-500"/>, title: "Oficinas de canto, dança e instrumentos musicais" },

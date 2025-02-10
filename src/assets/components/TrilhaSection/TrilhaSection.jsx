@@ -17,19 +17,10 @@ const trails = [
 ];
 
 const TrilhaSection = () => {
-    const [email, setEmail] = useState("");
-    const [submitted, setSubmitted] = useState(false);
-    const isValidEmail = email.includes("@") && email.includes(".");
-
-    const handleSubmit = (e) => {
-        e.preventDefault();
-        if (isValidEmail) {
-            setSubmitted(true);
-        }
-    };
+   
 
     return (
-        <section className="trilha-container mt-[15rem]">
+        <section className="trilha-container mt-[5rem]">
             <div className="trilha-content">
                 
                 {/* Grid transformado em carrossel no mobile */}
@@ -47,22 +38,7 @@ const TrilhaSection = () => {
                     <div className="trilha-divider w-full max-w-[1000px]"></div>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing.</p>
 
-                    {/* Formulário */}
-                    <form onSubmit={handleSubmit} className="trilha-form">
-                        <input
-                            type="email"
-                            placeholder="Digite seu e-mail"
-                            value={email}
-                            onChange={(e) => setEmail(e.target.value)}
-                            required
-                        />
-                        <button type="submit" disabled={!isValidEmail || submitted}>
-                            {submitted ? "Enviado!" : "Enviar"}
-                        </button>
-                    </form>
-
-                    {/* Mensagem de sucesso */}
-                    {submitted && <p className="trilha-success">Obrigado! Verifique seu e-mail.</p>}
+                    
                 </div>
             </div>
         </section>
